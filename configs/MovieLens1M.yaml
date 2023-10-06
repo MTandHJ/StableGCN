@@ -1,0 +1,16 @@
+dataset: MovieLens1M_10101811_Chron
+root: ../data
+epochs: 30
+batch_size: 2048
+optimizer: sgd
+lr: 0.1
+weight_decay: 3.e-4
+dropout_rate: 0.
+embedding_dim: 64
+hidden_dim: 256
+layers: 4
+num_filters: 70
+weight: 1.5
+alpha: 20.
+upper: 0.5
+lower: 0.2 # 0.3

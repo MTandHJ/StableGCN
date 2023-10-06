@@ -1,0 +1,16 @@
+dataset: Gowalla_10100811_Chron
+root: ../data
+epochs: 300
+batch_size: 2048
+optimizer: sgd
+lr: 0.1
+weight_decay: 2.e-4
+dropout_rate: 0.2
+embedding_dim: 64
+hidden_dim: 512
+layers: 2
+num_filters: 500
+weight: 1.
+alpha: 5.
+upper: .6
+lower: 0.1
